@@ -1,0 +1,5 @@
+name: Custom Search Functionality
+description: This module is develop to create custom search as per user requirement
+type: module
+package: Custom Search
+core: '8.x'

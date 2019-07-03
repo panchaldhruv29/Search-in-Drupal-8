@@ -1,0 +1,17 @@
+custom_search_functionality:
+  path: 'custom_search'
+  defaults:
+    _form: 'Drupal\custom_search_functionality\Form\CustomSearchFunctionalityForm'
+    _title: 'custom Search'
+  requirements:
+    _permission: 'access content'
+
+    
+custom_search_functionality.content:
+  path: '/custom_search_render'
+  defaults:
+    _controller: 'Drupal\custom_search_functionality\Controller\CustomSearchFunctionalityController::content'
+    _title: 'Custom Search'
+    name: 'there'
+  requirements:
+    _permission: 'access content'
